@@ -5,51 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>BREG Property Management</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../build/styles/main.css" />
     <script src="main.js"></script>
 </head>
 
 <body>
-    <div>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Realtor Referral Program</a></li>
-                    <li>After-Hours Emergency: (000)000-0000</li>
-                    <li><a href="#">Tenant</a></li>
+    <header class="page-header">
+        <img class="logo" src="../build/img/logo.png" width="200px">
+
+    <!-- Main navigation -->            
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Property Management</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="rental-search.html">Rental Search</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    <!-- Secondary navigation --> 
+        <nav class="sec-nav">
+            <ul>
+                <li><a href="realtors.html">Realtor Referral Program</a></li>
+                <li>After-Hours Emergency: (000)000-0000</li>
+                <li><a href="#">Tenant</a></li>
                     <ul>
                         <li><a href="#">Tenant Portal Login</a></li>
                         <li><a href="pay-rent.html">Pay Rent</a></li>
                         <li><a href="maintenance-request.html">Maintenance Request</a></li>
                         <li><a href="checklist.html">Move-in/Move-out Checklist</a></li>
                     </ul>
-                        <li><a href="#">Owner</a></li>
-                </ul>
-            </nav>
+                <li><a href="#">Owner</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">Property Management</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="rental-search.html">Rental Search</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
-        <img src="../build/img/smallhouse.jpg">
-        <main>
-            <section>
-                <h1>Property Management in Louisville</h1>
-                <h3>Give us the keys. We'll do the rest.</h3>
+    <div class="">
+        <img src="../build/img/adult-casual.jpg" width="1000">
+        <h1>Property Management in Louisville</h1>
+        <h2>Give us the keys. We'll do the rest.</h2>
 
-                <button href="pricing.html">Veiw Pricing</button>
-                <button type="button" href="index.html#contact">Contact Us</button>
-            </section>
-
-            <section>
-                <h1>Our Services</h1>
-                <h2>Professional solutions for your property needs</h2>
+        <button href="pricing.html">Veiw Pricing</button>
+        <button type="button" href="index.html#contact">Contact Us</button>
+    </div>
+        
+    <div class="">
+        <section>
+            <h1>Our Services</h1>
+            <h2>Professional solutions for your property needs</h2>
                 <ul>
                     <li>Rent Collection</li>
                     <li>Property Marketing</li>
@@ -60,79 +63,74 @@
                     <li>Evictions</li>
                     <li>Legal Guidance</li>
                 </ul>
-            </section>
-            <hr>
-            <section>
-                <h1>Why Choose BREG Property Management?</h1>
-                <h2>Discover why so many choose to partner with our team</h2>
-                
-                <h3>We're Always Available to Talk</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>
+        </section>
 
-                <h3>Our Team Understands the Needs of Modern Renters</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>
+        <section>
+            <h1>Why Choose BREG Property Management?</h1>
+            <h2>Discover why so many choose to partner with our team</h2>
+                    
+            <h3>We're Always Available to Talk</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>
 
-                <h3>Honesty Remains Our Top Priority</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>    
+            <h3>Our Team Understands the Needs of Modern Renters</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>
 
-                <h3>You Can Trust Our Proven Track Record</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>
-            </section>
+            <h3>Honesty Remains Our Top Priority</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>    
+
+            <h3>You Can Trust Our Proven Track Record</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>
+        </section>
             
-            <form>
-                <h2>Get a Free Rental Analysis</h2>
+        <form>
+            <h2>Get a Free Rental Analysis</h2>
                 <ul>
                     <li>Learn how to price your property appropriately</li>
                     <li>Discover ways to optimize your home for greater profits</li>
                     <li>Learn more about our management approach</li>
                 </ul>
 
-                <label id="name">Name:</label>
-                <input type="text" id="name" name="user_name">
+            <label id="name">Name:</label>
+            <input type="text" id="name" name="user_name">
 
-                <label id="phone">Phone:</label>
-                <input type="number" id="phone" name="user_phone">
+            <label id="phone">Phone:</label>
+            <input type="number" id="phone" name="user_phone">
 
-                <label id="mail">Email:</label>
-                <input type="email" id="mail" name="user_email">
+            <label id="mail">Email:</label>
+            <input type="email" id="mail" name="user_email">
 
-                <button type="submit">Send your info</button>
-            </form>
+            <button type="submit">Send your info</button>
+        </form>
             
-            <section>
-                <h2>Reviews</h2>
-                <aside></aside>
-            </section>
-            
-            <section>
-                <h1>Louisville Property Management Pros</h1>
-                <h2>Our local expertise is unbeatable</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est lorem ipsum dolor sit amet consectetur adipiscing. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin. Amet purus gravida quis blandit turpis cursus in hac. Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Enim eu turpis egestas pretium. Interdum varius sit amet mattis vulputate enim nulla aliquet. Integer enim neque volutpat ac tincidunt vitae. Tellus mauris a diam maecenas sed enim ut sem. Ridiculus mus mauris vitae ultricies leo. Mauris sit amet massa vitae tortor condimentum. Quis risus sed vulputate odio ut. Pellentesque habitant morbi tristique senectus et netus et. Nisi quis eleifend quam adipiscing vitae. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Nam at lectus urna duis convallis. Vulputate ut pharetra sit amet aliquam. Cursus in hac habitasse platea dictumst.</p>
-                <p>Nunc sed velit dignissim sodales. Sit amet mattis vulputate enim. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Elementum sagittis vitae et leo duis ut diam quam nulla. Pharetra vel turpis nunc eget lorem dolor. Sed euismod nisi porta lorem. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Vitae semper quis lectus nulla at volutpat diam. Lorem ipsum dolor sit amet consectetur adipiscing elit duis. Ut eu sem integer vitae justo. Et magnis dis parturient montes nascetur ridiculus mus mauris. Sed augue lacus viverra vitae congue eu consequat. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Sed pulvinar proin gravida hendrerit lectus. Massa sed elementum tempus egestas sed sed risus. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Velit euismod in pellentesque massa placerat.</p>
-            </section>
-            
-            <section id="contact">    
-                <h3>Speak to a Property Management Expert Now</h3>
-                <h4>I want to get answers to your questions? Give us a call: (000)000-0000</h4>
-            </section>
-        </main>
+        <section>
+            <h1>Louisville Property Management Pros</h1>
+            <h2>Our local expertise is unbeatable</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est lorem ipsum dolor sit amet consectetur adipiscing. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin. Amet purus gravida quis blandit turpis cursus in hac. Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Enim eu turpis egestas pretium. Interdum varius sit amet mattis vulputate enim nulla aliquet. Integer enim neque volutpat ac tincidunt vitae. Tellus mauris a diam maecenas sed enim ut sem. Ridiculus mus mauris vitae ultricies leo. Mauris sit amet massa vitae tortor condimentum. Quis risus sed vulputate odio ut. Pellentesque habitant morbi tristique senectus et netus et. Nisi quis eleifend quam adipiscing vitae. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Nam at lectus urna duis convallis. Vulputate ut pharetra sit amet aliquam. Cursus in hac habitasse platea dictumst.</p>
+            <p>Nunc sed velit dignissim sodales. Sit amet mattis vulputate enim. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Elementum sagittis vitae et leo duis ut diam quam nulla. Pharetra vel turpis nunc eget lorem dolor. Sed euismod nisi porta lorem. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Vitae semper quis lectus nulla at volutpat diam. Lorem ipsum dolor sit amet consectetur adipiscing elit duis. Ut eu sem integer vitae justo. Et magnis dis parturient montes nascetur ridiculus mus mauris. Sed augue lacus viverra vitae congue eu consequat. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Sed pulvinar proin gravida hendrerit lectus. Massa sed elementum tempus egestas sed sed risus. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Velit euismod in pellentesque massa placerat.</p>
+        </section>
+    </div>      
 
-        <footer>
-            <h3>BREG Property Management</h3>
-            <address>
-                123 Main St.<br>
-                Louisville, KY 40216<br>
-                (000)000-0000
-            </address>
+    <div id="contact">    
+        <h3>Speak to a Property Management Expert Now</h3>
+        <h4>I want to get answers to your questions? Give us a call: (000)000-0000</h4>
+    </div>
+
+    <footer>
+        <address>
+        BREG Property Management<br>
+        123 Main St.<br>
+        Louisville, KY 40216<br>
+        (000)000-0000
+        </address>
            
-            <p>
-                Kentucky Broker License: 000000<br>
-                Company Broker License: 000000
-            </p>
+        <p>
+        Kentucky Broker License: 000000<br>
+        Company Broker License: 000000
+        </p>
 
-            <p><a href="#">Realtor Referral Program</a></p>
+        <p><a href="#">Realtor Referral Program</a></p>
 
-            <h3>Tenants</h3>
+        <h3>Tenants</h3>
             <ul>
                 <li><a href="#">Tenant Portal Login</a></li>
                 <li><a href="#">Pay Rent</a></li>
@@ -142,11 +140,11 @@
                 <li><a href="#">Move-in/Move-out Checklist</a></li>
             </ul>
 
-            <h3>Follow Us</h3>
-            <aside></aside>
+        <h3>Follow Us</h3>
+        <aside></aside>
 
-            <p>&copy;2018 Burton Real Estate Group LLC. All Rights Reserved.</p>
-        </footer>
-    </div>
+        <p>&copy;2018 Burton Real Estate Group LLC. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>

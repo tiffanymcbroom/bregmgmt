@@ -1,0 +1,52 @@
+/* Universal selecter */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: lightgray;
+}
+
+h1 {
+    font-size: 3.125em; /* 50px/16=3.125em */
+}
+
+h2 {
+    font-size: 1.875em; /* 30px/16=1.875em */
+}
+
+h3 {
+    font-size: 1.25em; /* 20px/16=1.25em */
+}
+
+p {
+    font-size: 1em; /* 16px/16=1em */
+}
+
+
+
+.logo {
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+/* Main navigation */
+.main-nav {
+    float: right;
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
