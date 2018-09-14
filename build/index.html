@@ -10,47 +10,43 @@
 </head>
 
 <body>
-    <header class="page-header">
-        <img class="logo" src="../build/img/logo.png" width="200px">
-
-    <!-- Main navigation -->            
-        <nav class="main-nav">
-            <ul>
-                <li><a href="index.html">Property Management</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="rental-search.html">Rental Search</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
+    <header class="main-header">
+        <img class="logo" src="../build/img/logo.png" max-width="50px">
     <!-- Secondary navigation --> 
         <nav class="sec-nav">
-            <ul>
-                <li><a href="realtors.html">Realtor Referral Program</a></li>
-                <li>After-Hours Emergency: (000)000-0000</li>
-                <li><a href="#">Tenant</a></li>
-                    <ul>
-                        <li><a href="#">Tenant Portal Login</a></li>
-                        <li><a href="pay-rent.html">Pay Rent</a></li>
-                        <li><a href="maintenance-request.html">Maintenance Request</a></li>
-                        <li><a href="checklist.html">Move-in/Move-out Checklist</a></li>
-                    </ul>
-                <li><a href="#">Owner</a></li>
-            </ul>
+            <a href="realtors.html">Realtor Referral Program</a>
+            <a href="#">After-Hours Emergency: (000)000-0000</a>
+            <a href="#">Tenant</a>
+                <ul>
+                    <li><a href="#">Tenant Portal Login</a></li>
+                    <li><a href="pay-rent.html">Pay Rent</a></li>
+                    <li><a href="maintenance-request.html">Maintenance Request</a></li>
+                    <li><a href="checklist.html">Move-in/Move-out Checklist</a></li>
+                </ul>
+            <a href="#">Owner</a></li>
+        </nav>
+    <!-- Main navigation -->            
+        <nav class="main-nav">
+            <a href="index.html">Property Management</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="rental-search.html">Rental Search</a>                <a href="about.html">About Us</a>
+            <a href="#contact">Contact Us</a>
         </nav>
     </header>
 
-    <div class="">
-        <img src="../build/img/adult-casual.jpg" width="1000">
-        <h1>Property Management in Louisville</h1>
-        <h2>Give us the keys. We'll do the rest.</h2>
+    <div class="banner">
+        <img src="../build/img/adult-casual.jpg" alt="guy" style="max-width: 100%;">
+        <div class="intro">
+            <h1>Property Management in Louisville</h1>
+            <h2>Give us the keys. We'll do the rest.</h2>
 
-        <button href="pricing.html">Veiw Pricing</button>
-        <button type="button" href="index.html#contact">Contact Us</button>
+            <button href="pricing.html">Veiw Pricing</button>
+            <button type="button" href="index.html#contact">Contact Us</button>
+        </div>
     </div>
         
-    <div class="">
-        <section>
+    <div class="main">
+        <section class="services">
             <h1>Our Services</h1>
             <h2>Professional solutions for your property needs</h2>
                 <ul>
@@ -65,7 +61,7 @@
                 </ul>
         </section>
 
-        <section>
+        <section class="why">
             <h1>Why Choose BREG Property Management?</h1>
             <h2>Discover why so many choose to partner with our team</h2>
                     
@@ -82,7 +78,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>
         </section>
             
-        <form>
+        <form class="analysis">
             <h2>Get a Free Rental Analysis</h2>
                 <ul>
                     <li>Learn how to price your property appropriately</li>
@@ -110,7 +106,7 @@
         </section>
     </div>      
 
-    <div id="contact">    
+    <div class="contact" id="contact">    
         <h3>Speak to a Property Management Expert Now</h3>
         <h4>I want to get answers to your questions? Give us a call: (000)000-0000</h4>
     </div>
