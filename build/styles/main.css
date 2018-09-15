@@ -9,10 +9,10 @@ body {
     text-align: center;
 }
 
-.main-header {
+.header {
     overflow: hidden;
-    background-color: lightgray;
-    padding: 10px 5px;
+    background-color: white;
+    padding: none;
 }
 /* .header img.logo {
     float: left;
@@ -59,13 +59,50 @@ ul {
     padding: 0;
 }
 
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brand {
+    margin-right: auto;
+    flex: 1 0 150px;
+}
+
+.main-nav {
+    list-style: none;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-end;
+  }
+
+.main-nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: gray;
+  }
+
 .banner {
     position: relative;
     text-align: center;
-    color: black;
 }
 
 .intro {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pricecontact {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -77,10 +114,19 @@ ul {
 .sec-nav {
     float: right;
 }
+.sec-nav a {
+    text-decoration: none;
+}
+
+
 
 .main-nav {
     float: right;
     margin-left: 12px;
+}
+
+.main-nav a {
+    text-decoration: none;
 }
 
 .logo {
