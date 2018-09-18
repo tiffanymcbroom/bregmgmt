@@ -1,38 +1,10 @@
+
+/* ==========Basics============ */
 /* Universal selecter */
 * {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    margin: 0;
-    text-align: center;
-}
-
-.header {
-    overflow: hidden;
-    background-color: white;
-    padding: none;
-}
-/* .header img.logo {
-    float: left;
-    width: 500px;
-    height: 500px;
-} */
-/* Main navigation */
-/* .main-header nav.main-nav {
-    float: 
-    color: black;
-    text-align: center;
-    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    font-size: 18px; */
 }
-/* Second navigation */
-.main-header nav.sec-nav {
-
-}
-
 
 h1 {
     font-size: 3.125em; /* 50px/16=3.125em */
@@ -50,8 +22,17 @@ p {
     font-size: 1em; /* 16px/16=1em */
 }
 
+/* ===========Layout================ */
 
+body {
+    margin: 0;
+    text-align: center;
+}
 
+.header {
+    overflow: hidden;
+    background-color: white;
+}
 
 ul {
     list-style-type: none;
@@ -59,12 +40,12 @@ ul {
     padding: 0;
 }
 
-header {
-    display: flex;
+/* header {
+
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
-}
+} */
 
 .brand {
     margin-right: auto;
@@ -90,9 +71,30 @@ header {
     color: gray;
   }
 
+.top-bar li{
+    display: inline;
+    width: 60px;
+    overflow: hidden;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
 .banner {
     position: relative;
     text-align: center;
+    background-color: black;
+}
+
+.banner img {
+    opacity: 0.5;
 }
 
 .intro {
@@ -100,6 +102,7 @@ header {
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 
 .pricecontact {
@@ -109,16 +112,30 @@ header {
     transform: translate(-50%, -50%);
 }
 
-/*============== Media Queries=========== */
-
-.sec-nav {
-    float: right;
+.services {
+    padding-top: 8%;
+    color: gray;
 }
-.sec-nav a {
+
+.why {
+    padding-top: 8%; 
+}
+
+/* top-bar */
+.top-bar {
+    display: block;
+    background-color: lightgray;
+    overflow: hidden;
+    height: 2em;
+}
+
+.topnav {
+    float: right;
+    margin-left: 12px;
+}
+.topnav a {
     text-decoration: none;
 }
-
-
 
 .main-nav {
     float: right;
@@ -129,6 +146,13 @@ header {
     text-decoration: none;
 }
 
+
+
+/* =============Components=============== */
 .logo {
     float: left;
 }
+
+
+/*============== Media Queries===========*/
+
