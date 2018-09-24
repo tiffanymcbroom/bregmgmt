@@ -47,6 +47,72 @@ ul {
     justify-content: space-around;
 } */
 
+
+/* ======top-bar====== */
+.top-bar {
+    background-color: #cf0015;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 35px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/* Top Menu */
+.topnav {
+    font: bold 14px Lato;
+    color: lightgray;
+    float: right;
+    display: inline-block;
+}
+
+.top-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* float: right;
+    position: relative; */
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a {
+    color: lightgrey;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+
+.topnav li a:hover {
+    color: grey;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+/* ======Main Navigation====== */
+.main-nav {
+    float: right;
+    margin-left: 12px;
+}
+
+.main-nav a {
+    text-decoration: none;
+}
+
 .brand {
     margin-right: auto;
     flex: 1 0 150px;
@@ -71,32 +137,23 @@ ul {
     color: gray;
   }
 
-.top-bar li{
-    display: inline;
-    width: 60px;
-    overflow: hidden;
-}
 
-.dropdown {
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    width: 100%;
-}
-
+/* =======banner========= */
+/* div holding the image and the text */
 .banner {
     position: relative;
     text-align: center;
     background-color: black;
+    height: 600px;
 }
 
 .banner img {
     opacity: 0.5;
+    max-width: 100%;
+    width: 1000px;
 }
 
+/* centered text */
 .intro {
     position: absolute;
     top: 25%;
@@ -104,6 +161,7 @@ ul {
     transform: translate(-50%, -50%);
     color: white;
 }
+
 
 .pricecontact {
     position: absolute;
@@ -121,32 +179,6 @@ ul {
     padding-top: 8%; 
 }
 
-/* top-bar */
-.top-bar {
-    display: block;
-    background-color: lightgray;
-    overflow: hidden;
-    height: 2em;
-}
-
-.topnav {
-    float: right;
-    margin-left: 12px;
-}
-.topnav a {
-    text-decoration: none;
-}
-
-.main-nav {
-    float: right;
-    margin-left: 12px;
-}
-
-.main-nav a {
-    text-decoration: none;
-}
-
-
 
 /* =============Components=============== */
 .logo {
@@ -155,4 +187,5 @@ ul {
 
 
 /*============== Media Queries===========*/
+
 
