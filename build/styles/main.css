@@ -150,7 +150,8 @@ ul {
 .banner img {
     opacity: 0.5;
     max-width: 100%;
-    width: 1000px;
+    height: 600px;
+    width: 1200px;
 }
 
 /* centered text */
@@ -160,6 +161,8 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    max-width: 100%;
+    width: 1000px;
 }
 
 
@@ -168,6 +171,29 @@ ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+.price {
+    background-color: white
+    border: none;
+    color: #cf0015;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.contactus {
+    background-color: #cf0015; /* red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .services {
