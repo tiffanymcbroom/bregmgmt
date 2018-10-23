@@ -9,148 +9,91 @@
     <script src="main.js"></script>
 </head>
 
-<body> 
-    <!-- Top bar navigation --> 
-    <div class="top-bar">
-        <ul class="topnav">
-            <li><a href="realtors.html">Realtor Referral Program</a></li>  
-            <li class="dropdown">
-            <!--<a href="javascript:void(0)" class="dropbtn">--><span>Tenants</span></a>
-                <div class="dropdown-content">
-                    <a href="#">Tenant Portal Login</a>
-                    <a href="pay-rent.html">Pay Rent</a>
-                    <a href="maintenance-request.html">Maintenance Request</a>
-                    <a href="checklist.html">Move-in/Move-out Checklist</a>
-                </div>
-            </li>
-            <li><a href="#">Owner</a></li>
-            <li><a href="#">(502) 938-8932</a></li>
-        </ul>
-    </div>
-        
+<body>
+    <!-- Top bar --> 
+    <div class="topbar"></div>
+
     <header class="header">
-        <div class="brand">
-            <img class="logo" src="../build/img/logo.png" width="175" height="175">
-        </div>    
-    <!-- Main navigation -->
-        <div class="navbar">            
-            <ul class="main-nav">
+        <img class="logo" src="../build/img/logo.png" width="175" height="175">   
+    
+    <!-- Navigation menu-->
+        <div>
+            <ul class="navbar">
                 <li><a href="index.html">Property Management</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
+                <li class="dropdown">
+                    <li class="drop">Tenant    
+                    <ul class="dropdown-content">
+                            <li><a href="pay-rent.html">Pay Rent</a></li>
+                            <li><a href="maintenance-request.html">Maintenance Request</a></li>
+                    </ul></li>
+                </li>
                 <li><a href="rental-search.html">Rental Search</a></li>                
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="apply-now.html">Apply Now</a></li>
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
     </header>
 
+    <!-- Banner -->
     <div class="banner">
-        <img src="../build/img/adult-casual.jpg" alt="guy">
-        <div class="intro">
-            <h1>Property Management in Louisville</h1>
-            <h2>Give us the keys. We'll do the rest.</h2>
+        <img src="../build/img/smallhouse.jpg" alt="house">
+        <div class="inner">
+            <div class="intro">
+                <h1>Property Management in Louisville</h1>
+                <h2>Quality Rentals. Great Customer Service.</h2>
+            </div>
+            <div class="sibling-selector">
+                <div class="button">
+                    <button class="apply" href="apply-now.html">Apply Now</button>
+                    <button class="pay" type="button" href="pay-rent.html">Pay Rent</button>
+                </div>
         </div>
-        <div class="pricecontact">
-            <button class="price" href="pricing.html">View Pricing</button>
-            <button class="contactus" type="button" href="index.html#contact">Contact Us</button>
         </div>
     </div>
-        
-    <div class="main">
-        <section class="services">
-            <h1>Our Services</h1>
-            <h2>Professional solutions for your property needs</h2>
-                <ul>
-                    <li>Rent Collection</li>
-                    <li>Property Marketing</li>
-                    <li>Tenant Screening</li>
-                    <li>Maintenance</li>
-                    <li>Property Inspections</li>
-                    <li>Financial Reporting</li>
-                    <li>Evictions</li>
-                    <li>Legal Guidance</li>
-                </ul>
-        </section>
 
-        <section class="why">
-            <h1>Why Choose BREG Property Management?</h1>
-            <h2>Discover why so many choose to partner with our team</h2>
-                    
-            <h3>We're Always Available to Talk</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>
-
-            <h3>Our Team Understands the Needs of Modern Renters</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>
-
-            <h3>Honesty Remains Our Top Priority</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>    
-
-            <h3>You Can Trust Our Proven Track Record</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus id interdum velit laoreet id.</p>
-        </section>
-            
-        <form class="analysis">
-            <h2>Get a Free Rental Analysis</h2>
-                <ul>
-                    <li>Learn how to price your property appropriately</li>
-                    <li>Discover ways to optimize your home for greater profits</li>
-                    <li>Learn more about our management approach</li>
-                </ul>
-
-            <label id="name">Name:</label>
-            <input type="text" id="name" name="user_name">
-
-            <label id="phone">Phone:</label>
-            <input type="number" id="phone" name="user_phone">
-
-            <label id="mail">Email:</label>
-            <input type="email" id="mail" name="user_email">
-
-            <button type="submit">Send your info</button>
-        </form>
-            
-        <section>
-            <h1>Louisville Property Management Pros</h1>
-            <h2>Our local expertise is unbeatable</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Est lorem ipsum dolor sit amet consectetur adipiscing. Venenatis tellus in metus vulputate eu scelerisque felis imperdiet proin. Amet purus gravida quis blandit turpis cursus in hac. Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Enim eu turpis egestas pretium. Interdum varius sit amet mattis vulputate enim nulla aliquet. Integer enim neque volutpat ac tincidunt vitae. Tellus mauris a diam maecenas sed enim ut sem. Ridiculus mus mauris vitae ultricies leo. Mauris sit amet massa vitae tortor condimentum. Quis risus sed vulputate odio ut. Pellentesque habitant morbi tristique senectus et netus et. Nisi quis eleifend quam adipiscing vitae. Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Nam at lectus urna duis convallis. Vulputate ut pharetra sit amet aliquam. Cursus in hac habitasse platea dictumst.</p>
-            <p>Nunc sed velit dignissim sodales. Sit amet mattis vulputate enim. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Elementum sagittis vitae et leo duis ut diam quam nulla. Pharetra vel turpis nunc eget lorem dolor. Sed euismod nisi porta lorem. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Vitae semper quis lectus nulla at volutpat diam. Lorem ipsum dolor sit amet consectetur adipiscing elit duis. Ut eu sem integer vitae justo. Et magnis dis parturient montes nascetur ridiculus mus mauris. Sed augue lacus viverra vitae congue eu consequat. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Sed pulvinar proin gravida hendrerit lectus. Massa sed elementum tempus egestas sed sed risus. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Velit euismod in pellentesque massa placerat.</p>
-        </section>
-    </div>      
-
-    <div class="contact" id="contact">    
-        <h3>Speak to a Property Management Expert Now</h3>
-        <h4>I want to get answers to your questions? Give us a call: (000)000-0000</h4>
-    </div>
-
-    <footer>
-        <address>
-        BREG Property Management<br>
-        123 Main St.<br>
-        Louisville, KY 40216<br>
-        (000)000-0000
-        </address>
-           
-        <p>
-        Kentucky Broker License: 000000<br>
-        Company Broker License: 000000
+    <!-- About -->
+    <div class="about-section">
+        <p class="about">
+        At Burton Real Estate Group, we understand the need for clean, comfortable housing at an affordable rate. We are a local management company that focuses on quality homes and incredible customer service.<br>
+        We provide properties for rent in Louisville, Kentucky and surrounding communities.<br>
         </p>
+    </div>
 
-        <p><a href="#">Realtor Referral Program</a></p>
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="column">
+                <address>
+                <b>BREG Property Management</b><br>
+                P.O. Box 16242<br>
+                Louisville, KY 40256<br>
+                (502)938-8932
+                </address>
+                
+                <p>
+                <b>BUSINESS HOURS</b><br>
+                Monday - Friday 10:00am - 4:00pm<br>
+                Saturday & Sundays Closed<br>
+                Holidays Closed
+                </p>
+            </div>
 
-        <h3>Tenants</h3>
-            <ul>
-                <li><a href="#">Tenant Portal Login</a></li>
-                <li><a href="#">Pay Rent</a></li>
-                <li><a href="#">Maintenance Request</a></li>
-                <li><a href="#">Rental Search</a></li>
-                <li><a href="#">Application Processt</a></li>
-                <li><a href="#">Move-in/Move-out Checklist</a></li>
-            </ul>
+            <div class="column">
+                <h3>Tenants</h3>
+                    <ul>
+                        <li><a href="pay-rent.html">Pay Rent</a></li>
+                        <li><a href="maintenance-request.html">Maintenance Request</a></li>
+                    </ul>
 
-        <h3>Follow Us</h3>
-        <aside></aside>
+                <img class="equal-housing" src="../build/img/equal-housing.JPG" width="75" height="75">
+            </div>
 
-        <p>&copy;2018 Burton Real Estate Group LLC. All Rights Reserved.</p>
+            <div class="column">
+                <img class="logo-bottom" src="../build/img/logo.png" width="175" height="175">
+            </div>
+        </div>
+
+        <p class="copyright">&copy;2018 Burton Real Estate Group LLC. All Rights Reserved.</p>
     </footer>
 
 </body>
