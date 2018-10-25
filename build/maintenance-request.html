@@ -6,7 +6,7 @@
     <title>Maintenance Request - BREG Property Management</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../build/styles/main.css" />
-    <script src="main.js"></script>
+    
 </head>
 
 <body>
@@ -34,42 +34,73 @@
         </div>
     </header>
 
-        <img src="../build/img/adult-casual.jpg" width="1000">
-
-        <section>
-            <h1>Submit a Maintenance Request</h1>
-
-            <h2>IMPORTANT: Please read through these common issues before reaching out for repair assistance.</h2>
-
-            <dl>
-                <dt>My toilet isn't flushing properly.</dt>
-                <dd>Two of the most common toilet problems are blocked systems and malfunctioning toilet flappers.<br>
-                        If you believe your toilet is clogged, flush it once and use the plunger to create suction in the bowl. Attempt to pump the clock through the pipes by repeatedly pushing up and down on the plunger. If the toilet flushes, you've succeeded!<br>                  
-                        You may also want to lift the cover of your toilet and check whether the flapper is attached correctly. A small chain should be linked to your flushing mechanism. If this chain comes loose, nothing will happen when you attempt to flush.<br>
-                        Reattach the chain and try to flush your toilet again.</dd>
-                <dt>I don't have power in my home.</dt>
-                <dd>Power problems can be attributed to a number of different factors, including extenuating circumstances like storms and nearby construction. If you're the only home in the neighborhood impacted, troubleshoot the problem using the following steps:<br>
-                        Are your outlets working?<br>
-                        If one of your outlets stops working, first try to use a different appliance in the same plug. This will allow you to rule out equipment failure.
-                        If you have GFCI outlets, reset the outlets by pushing in the test button and then pressing the second button into place.<br>
-                        Is your whole home without power?<br>
-                        If you have no power in the property, locate the circuit breaker. If the breaker is flipped, you'll lose power. Reset it and see if your problem resolves itself.<br>
-                        If problems persist, call your utilities provider.</dd>
-                <dt>I don't have hot water.</dt>
-                <dd>If your home has no hot water, verify that your heater is working properly. The hot water tank should have a temperature gauge; verify that your settings haven't been accidentally changed.<br>
-                    If you're able to restart the water heater, do so and then wait 15 minutes to see if the problem has been resolved.</dd>
-                <dt>I don't have heat or air conditioning.</dt>
-                <dd>If your HVAC system fails, first check that your thermostats are set correctly. Assuming everything else is working, give your utility company a call to ensure your account is current.</dd>
-                <dt>I have an emergency maintenance situation</dt>
-                <dd>In the event of an emergency, call 911 immediately for assistance.</dd>
-                <dt>My problem isn't on this list...</dt>
-                <dd>Still having issues? We've listed a few more frequent problems below:<br>
-                        My lights aren't working: have you verified that the lightbulb is still good? Replace the bulb and try to reset your breaker.<br>
-                        Beeping smoke detectors: you're hearing a low battery warning. Replace your battery to resolve the problem.<br>
-                        Clogged sink or dishwasher: check to see if something is physically blocking the drain.<br>
-                        Refrigerator not cooling properly: check your temperature controls and the grills around the appliance for obstructions.</dd>
-            </dl>
-
+<!-- Banner -->
+    <div class="banner">
+        <img class="repair" src="../build/img/repair.jpeg" alt="repair">
+        <div class="inner">
+            <div class="intro">
+                <h1>Submit a Maintenance Request</h1>
+            </div>
+        </div>
+    </div>
+<!-- Important: Please Read section -->
+    <section>
+        <div class="important">
+        <h2>IMPORTANT: Please read through these common issues before reaching out for repair assistance.</h2>
+        </div>
+<!-- Accordion section -->
+    <div class="accordion">
+        <!-- Accordion 1 -->
+        <button id="accordion1" class="accordion1">My toilet isn't flushing properly.</button>
+        <div class="panel1">
+            <p>&nbsp;</p>
+            <p>Two of the most common toilet problems are blocked systems and malfunctioning toilet flappers.</p>
+            <p>If you believe your toilet is clogged, flush it once and use the plunger to create suction in the bowl. Attempt to pump the clock through the pipes by repeatedly pushing up and down on the plunger. If the toilet flushes, you've succeeded!</p>                  
+            <p>You may also want to lift the cover of your toilet and check whether the flapper is attached correctly. A small chain should be linked to your flushing mechanism. If this chain comes loose, nothing will happen when you attempt to flush.</p>
+            <p>Reattach the chain and try to flush your toilet again.</p>
+        </div>
+    <!-- Accordion 2 -->
+        <button class="accordion2">I don't have power in my home.</button>
+        <div class="panel2">
+            <p>Power problems can be attributed to a number of different factors, including extenuating circumstances like storms and nearby construction. If you're the only home in the neighborhood impacted, troubleshoot the problem using the following steps:<br>
+                Are your outlets working?<br>
+                If one of your outlets stops working, first try to use a different appliance in the same plug. This will allow you to rule out equipment failure.
+                If you have GFCI outlets, reset the outlets by pushing in the test button and then pressing the second button into place.<br>
+                Is your whole home without power?<br>
+                If you have no power in the property, locate the circuit breaker. If the breaker is flipped, you'll lose power. Reset it and see if your problem resolves itself.<br>
+                If problems persist, call your utilities provider.</dd>
+            </p>
+        </div>
+    <!-- Accordion 3 -->
+        <button class="accordion3">I don't have hot water.</button>
+        <div class="panel3">
+            <p>If your home has no hot water, verify that your heater is working properly. The hot water tank should have a temperature gauge; verify that your settings haven't been accidentally changed.<br>
+                If you're able to restart the water heater, do so and then wait 15 minutes to see if the problem has been resolved.
+            </p>
+        </div>
+    <!-- Accordion 4 -->
+        <button class="accordion4">I don't have heat or air conditioning.</button>
+        <div class="panel4">
+            <p>If your HVAC system fails, first check that your thermostats are set correctly. Assuming everything else is working, give your utility company a call to ensure your account is current.
+            </p>
+        </div>
+    <!-- Accordion 5 -->
+        <button class="accordion5">I have an emergency maintenance situation.</button>
+        <div class="panel5">
+            <p>In the event of an emergency, call 911 immediately for assistance.
+            </p>
+        </div>
+    <!-- Accordion 6 -->
+        <button class="accordion6">My problem isn't on this list...</button>
+        <div class="panel6">
+            <p>Still having issues? We've listed a few more frequent problems below:<br>
+                My lights aren't working: have you verified that the lightbulb is still good? Replace the bulb and try to reset your breaker.<br>
+                Beeping smoke detectors: you're hearing a low battery warning. Replace your battery to resolve the problem.<br>
+                Clogged sink or dishwasher: check to see if something is physically blocking the drain.<br>
+                Refrigerator not cooling properly: check your temperature controls and the grills around the appliance for obstructions.
+            </p>
+        </div>
+    </div>
             <h2>Still having problems? Get in touch with us now.</h2>
 
             <h2>Our Maintenance Line number is 888-000-0000</h2>
@@ -166,5 +197,6 @@
             <p>&copy;2018 Burton Real Estate Group LLC. All Rights Reserved.</p>
         </footer>
     </div>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
