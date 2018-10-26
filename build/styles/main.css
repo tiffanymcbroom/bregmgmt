@@ -129,10 +129,8 @@ div {
     display: inline-block;
 }
 
-.logobm {}
 
-.equal-housing {}
-
+/* ===================================== Home Page ==========================================*/
 /* Banner */
 .banner img {
     width: 100%;
@@ -267,8 +265,7 @@ footer {
 
 
 /* ===================================== Maintenance Page ==========================================*/
-
-
+/* Banner */
 .banner2 {
     background-color: black;
     height: 200px;
@@ -289,7 +286,7 @@ footer {
     text-align: center;
 }
 
-/* Accordion section */
+/*==== Accordion section ====*/
 .accordion {
     width: 100%;
     border: 10px;
@@ -298,7 +295,7 @@ footer {
     clear: both;
 }
 
-/*=== Accordion 1 ===*/
+/* Accordion 1 */
 /* Style the divs that are used to open and close the accordion panel */
 .accordion1 {
     background-color: #eee;
@@ -328,7 +325,7 @@ footer {
     overflow: hidden;
 }
 
-/*==== Accordion 2 ====*/
+/* Accordion 2 */
 .accordion2 {
     background-color: #eee;
     color: #444;
@@ -354,7 +351,7 @@ footer {
     display: none;
     overflow: hidden;
 }
-/*==== Accordion 3 ====*/
+/* Accordion 3 */
 .accordion3 {
     background-color: #eee;
     color: #444;
@@ -381,7 +378,7 @@ footer {
     overflow: hidden;
 }
 
-/*==== Accordion 4 ====*/
+/* Accordion 4 */
 .accordion4 {
     background-color: #eee;
     color: #444;
@@ -408,7 +405,7 @@ footer {
     overflow: hidden;
 }
 
-/*==== Accordion 5 ====*/
+/* Accordion 5 */
 .accordion5 {
     background-color: #eee;
     color: #444;
@@ -435,7 +432,7 @@ footer {
     overflow: hidden;
 }
 
-/*==== Accordion 6 ====*/
+/* Accordion 6 */
 .accordion6 {
     background-color: #eee;
     color: #444;
@@ -466,7 +463,7 @@ footer {
     text-align: center;
 }
 
-/*========== Maintainance Form ======= */
+/*==== Maintainance Form ====*/
 .main-content {
     padding: 20px;
     background-color: #edeae6;
@@ -480,7 +477,45 @@ form {
 .row1 {
     display: inline-block;
 }
-/* ======Media Queries====== */
+
+/* ===================================== Rental Search Page ==========================================*/
+/* Banner */
+.banner3 {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.banner3 img.apartments {
+    background-size: cover;
+    height: 200px;
+    width: 1863px;
+    opacity: 0.5;
+}
+
+/* ===================================== How to Apply Page ==========================================*/
+.bgimg {
+    background-image: url('../build/img/rooftop.jpg');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+}
+
+/* ============================ */
+/* ====== Media Queries ====== */
 @media screen and (max-width: 600px) {
     .header {
         flex-direction: column;
@@ -551,7 +586,7 @@ footer {
     flex-direction: column;
 }
 
-/*============= Maintainence Form =========== */
+/*==== Maintainence Form ====*/
 
 .main-content {
     padding: 20px 8px;

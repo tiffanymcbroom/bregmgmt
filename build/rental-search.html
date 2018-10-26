@@ -5,44 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Rentals in Louisville | BREG Property Management</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../build/styles/main.css" />
+    
 </head>
 
 <body>
-    <div>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="realtors.html">Realtor Referral Program</a></li>
-                    <li>After-Hours Emergency: (000)000-0000</li>
-                    <li><a href="#">Tenant</a></li>
-                    <ul>
-                        <li><a href="#">Tenant Portal Login</a></li>
-                        <li><a href="pay-rent.html">Pay Rent</a></li>
-                        <li><a href="maintenance-request.html">Maintenance Request</a></li>
-                        <li><a href="checklist.html">Move-in/Move-out Checklist</a></li>
-                    </ul>
-                        <li><a href="#">Owner</a></li>
-                </ul>
-            </nav>
+    <!-- Top bar --> 
+    <div class="topbar"></div>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">Property Management</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="rental-search.html">Rental Search</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="#index.html#contact">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
-        <img src="../build/img/adult-casual.jpg" width="1000">
+    <header class="header">
+        <img class="logo" src="../build/img/logo.png" width="175" height="175" onclick="location.href = 'index.html'">   
+    
+    <!-- Navigation menu-->
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">Property Management</a></li>
+                <li class="dropdown">
+                    <li class="drop">Tenant    
+                    <ul class="dropdown-content">
+                            <li><a href="https://payrent.com/login/eyJyZXR1cm5fdXJsIjoiL2xhbmRsb3JkL3RlbmFudHMifQ____">Pay Rent</a></li>
+                            <li><a href="maintenance-request.html">Maintenance Request</a></li>
+                    </ul></li>
+                </li>
+                <li><a href="rental-search.html">Rental Search</a></li>                
+                <li><a href="apply-now.html">Apply Now</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Banner -->
+    <div class="banner3">
+        <img class="apartments" src="../build/img/row-of-houses.jpg" alt="houses">
+        <div class="inner">
+            <div class="intro">
+                <h1>Available Louisville Rental Properties</h1>
+            </div>
+        </div>
+    </div>
         <main>
             <section>
-                <h1>Available Louisville Rental Properties</h1>
-                
-                <h3>View Our Available Rental Property Vacancies</h3>
+                <h2>View Our Available Rental Property Vacancies</h2>
                 <p>Looking for rentals in Louisville? View our listings now.​</p>
 
                 <h3>How to Apply</h3>
@@ -53,7 +55,6 @@
 
                 <h3>Can't Find a Suitable Property?</h3>
                 <p>Please note, we do our best to maintain low vacancy rates. Because of this, we may not have many properties available on this page at any given time. We are always looking for great renters, however. If you don't see what you're looking for, give us a call to learn whether we have any upcoming vacancies not yet listed.</p>
-
             </section>
 
             <h3>SCROLL DOWN TO VIEW AVAILABLE RENTALS</h3>
@@ -68,35 +69,41 @@
         </main>
 
         <footer>
-            <h3>BREG Property Management</h3>
-            <address>
-                123 Main St.<br>
-                Louisville, KY 40216<br>
-                (000)000-0000
-            </address>
-           
-            <p>
-                Kentucky Broker License: 000000<br>
-                Company Broker License: 000000
-            </p>
-
-            <p><a href="#">Realtor Referral Program</a></p>
-
-            <h3>Tenants</h3>
-            <ul>
-                <li><a href="#">Tenant Portal Login</a></li>
-                <li><a href="#">Pay Rent</a></li>
-                <li><a href="#">Maintenance Request</a></li>
-                <li><a href="#">Rental Search</a></li>
-                <li><a href="#">Application Processt</a></li>
-                <li><a href="#">Move-in/Move-out Checklist</a></li>
-            </ul>
-
-            <h3>Follow Us</h3>
-            <aside></aside>
-
-            <p>&copy;2018 Burton Real Estate Group LLC. All Rights Reserved.</p>
+            <div class="row">
+                <div class="column">
+                    <address>
+                    <b>BREG Property Management</b><br>
+                    P.O. Box 16242<br>
+                    Louisville, KY 40256<br>
+                    (502)938-8932
+                    </address>
+                    
+                    <p>
+                    <b>BUSINESS HOURS</b><br>
+                    Monday - Friday 10:00am - 4:00pm<br>
+                    Saturday & Sundays Closed<br>
+                    Holidays Closed
+                    </p>
+                </div>
+    
+                <div class="column">
+                    <h3>Tenants</h3>
+                    <ul>
+                        <li><a href="https://payrent.com/login/eyJyZXR1cm5fdXJsIjoiL2xhbmRsb3JkL3RlbmFudHMifQ____">Pay Rent</a></li>
+                        <li><a href="maintenance-request.html">Maintenance Request</a></li>
+                    </ul>
+    
+                    <img class="equal-housing" src="../build/img/equal-housing.JPG" width="75" height="75">
+                </div>
+    
+                <div class="column">
+                    <img class="logo-bottom" src="../build/img/logo.png" width="175" height="175">
+                </div>
+            </div>
+        
+                <p class="copyright">&copy;2018 Burton Real Estate Group LLC. All Rights Reserved.</p>
         </footer>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
