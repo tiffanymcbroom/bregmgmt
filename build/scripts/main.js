@@ -125,3 +125,24 @@ for (var i = 0; i < acc.length; i++) {
 // https://www.w3schools.com/howto/howto_js_accordion.asp
 
 // Maintenance Form
+
+function autoLogIn(un, pw) {
+    var form = document.createElement("form");
+    var element1 = document.createElement("input"); 
+    var element2 = document.createElement("input");  
+
+    form.method = "POST";
+    form.action = "login.php";   
+
+    element1.value=un;
+    element1.name="un";
+    form.appendChild(element1);  
+
+    element2.value=pw;
+    element2.name="pw";
+    form.appendChild(element2);
+
+    document.body.appendChild(form);
+
+    form.submit();
+}
