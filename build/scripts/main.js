@@ -1,3 +1,12 @@
+// Home page
+
+// bottons
+
+// var url = document.getElementsByClassName("pay").onclick = function () {
+//         location.href = "https://payrent.com/login/eyJyZXR1cm5fdXJsIjoiL2xhbmRsb3JkL3RlbmFudHMifQ____";
+//     };
+
+
 // Maintenance-page
 
 // Accordion list effect
