@@ -155,11 +155,12 @@ function autoLogIn(un, pw) {
     form.submit();
 }
 
+// JQuery
 $(document).ready(function(){
     $("button").click(function(){
         $("form").hide();
 
-        $(".accordion").append("Thank you for submiting your form.");
+        $(".heading").append("Thanks for contacting us! We will be in touch with you shortly.");
     })
 
 });
