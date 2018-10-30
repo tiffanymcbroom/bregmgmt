@@ -93,7 +93,6 @@ for (var i = 0; i < acc.length; i++) {
 
 // Accordion 5
 var acc = document.getElementsByClassName("accordion5");
-
 for (var i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() { 
         
@@ -155,3 +154,13 @@ function autoLogIn(un, pw) {
 
     form.submit();
 }
+
+$(document).ready(function(){
+    $("button").click(function(){
+        $("form").hide();
+
+        $(".accordion").append("Thank you for submiting your form.");
+    })
+
+});
+

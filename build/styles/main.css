@@ -235,7 +235,7 @@ div.row2 {
 
 .about-section {
     width: 100%;
-    height: 600px;
+    height: 1200px;
     background-color: #edeae6;
     margin: 0;
 }
@@ -485,6 +485,8 @@ footer {
     padding: 20px;
     background-color: #edeae6;
     width: 500px;
+    display: block;
+    margin: auto;
 }
 
 form {
@@ -492,7 +494,12 @@ form {
 }
 
 .row1 {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    display: block;
 }
 
 /* ===================================== Rental Search Page ==========================================*/
@@ -584,14 +591,24 @@ h1 {
     flex-direction: row;
 }
 
-
+div.row1 {
+    display: block;
+}
 .column-1 {
     width: 100%;
-  }
+    flex: 33.33%;
+    padding: 5px;
+}
 
+div.row2 {
+    display: block;
+}
 .column-2 {
     width: 100%;
-  }
+    flex: 33.33%;
+    padding: 5px;
+}
+
 
 .about {
     position: relative;
@@ -600,7 +617,7 @@ h1 {
 }
 
 .about-section {
-    height: 800px;
+    height: 3300px;
 }
 
 footer {
