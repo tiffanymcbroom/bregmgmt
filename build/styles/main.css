@@ -304,7 +304,7 @@ footer {
 .banner2 img {
     background-size: cover;
     height: 200px;
-    width: 1863px;
+    width: 100%;
     opacity: 0.5;
 }
 
@@ -525,41 +525,159 @@ label {
 .banner3 img.apartments {
     background-size: cover;
     height: 200px;
-    width: 1863px;
+    width: 100%;
     opacity: 0.5;
 }
 
+.view {
+    text-align: center;
+}
+.row4{
+    display: flex;
+}
+
+.content-col-1 {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.content-col-2 {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.center-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 /* ===================================== How to Apply Page ==========================================*/
-.bgimg {
-    background-image: url('../build/img/rooftop.jpg');
-    /* Full-screen */
-    height: 100%;
-    /* Center the background image */
-    background-position: center;
-    /* Scale and zoom in the image */
-    background-size: cover;
-    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-    position: relative;
-    /* Add a white text color to all elements inside the .bgimg container */
+/* Banner */
+/* .banner4 {
+    background-color: black;
+    height: 200px;
+    text-align: center;
     color: white;
-    /* Add a font */
-    font-family: "Courier New", Courier, monospace;
-    /* Set the font-size to 25 pixels */
-    font-size: 25px;
+    position: relative;
+}
+
+.banner4 img.application {
+    background-size: cover;
+    height: 200px;
+    width: 1863px;
+    opacity: 0.5;
+} */
+
+.guidelines {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.process {
+    color: #cf0015;
+}
+
+.approval {
+    color: #cf0015;
+}
+
+.move-in {
+    color: #cf0015;
 }
 
 /* ============================ */
 /* ====== Media Queries ====== */
-/* @media screen and (min-width: 300px) {
-    .about-section {
-        height: 1550px;
-    }
+@media screen and (min-width: 300px) {
     
+    .about-section {
+        height: 1250px;
+    }
+
+    /* .row4 {
+        display: block;
+    } */
+
+    /* .navbar {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 50px;
+    } */
+
+    /* .navbar li {
+        display: block;
+    } */
+
+    .drop:hover {
+        margin-bottom: 50px;
+    }
+
+    .drop:hover ul.dropdown-content {
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .logo + div {
+        width: 100%;
+    }
+
+/* Main banner */
+
+/* h1 {
+    font-size: 30px;
+    line-height: 1.4;
+    letter-spacing: 0px;
 } */
+
+h2 {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.banner div.button {
+    flex-direction: row;
+}
+
+.about {
+    position: relative;
+    margin: 0;
+    padding: 20px;   
+}
+
+footer {
+    margin: 5% 5%;
+}
+
+/* .row {
+    display: flex;
+    flex-direction: column;
+} */
+
+/*==== Maintainence Form ====*/
+
+/* .main-content {
+    padding: 20px 8px;
+    background-color: #edeae6;
+    width: 250px;
+    } */
+}
+
+    /* TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
 
 @media screen and (max-width: 600px) {
     .header {
         flex-direction: column;
+        height: 300px;
+    }
+
+    .about-section {
+        height: 2950px;
+    }
+
+    .row4 {
+        display: block;
     }
 
     .navbar {
@@ -629,10 +747,6 @@ div.row2 {
     padding: 20px;   
 }
 
-.about-section {
-    height: 2550px;
-}
-
 footer {
     margin: 5% 5%;
 }
@@ -651,7 +765,7 @@ footer {
     }
 }
 
-}
+
 
 
 

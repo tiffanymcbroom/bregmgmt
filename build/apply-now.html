@@ -3,22 +3,118 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BREG Property Management</title>
+    <title>Rentals in Louisville | BREG Property Management</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../build/styles/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../build/styles/main.css">
+    <link rel="shortcut icon" type="image/png" href="../build/img/home.png">    
 </head>
 
-<div class="bgimg">
-    <img  src="../build/img/rooftop.jpg">
-    <div class="topleft">
-      <p>Logo</p>
+<body>
+    <!-- Top bar --> 
+    <div class="topbar"></div>
+
+    <header class="header">
+        <img class="logo" src="../build/img/logo.png" width="175" height="175" onclick="location.href = 'index.html'">   
+    
+    <!-- Navigation menu-->
+        <div>
+            <ul class="navbar">
+                <li><a href="index.html">Property Management</a></li>
+                <li class="dropdown">
+                    <li class="drop">Tenant    
+                    <ul class="dropdown-content">
+                            <li><a href="https://payrent.com/login/eyJyZXR1cm5fdXJsIjoiL2xhbmRsb3JkL3RlbmFudHMifQ____">Pay Rent</a></li>
+                            <li><a href="maintenance-request.html">Maintenance Request</a></li>
+                    </ul></li>
+                </li>
+                <li><a href="rental-search.html">Rental Search</a></li>                
+                <li><a href="apply-now.html">Apply Now</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Banner -->
+    <div class="banner3">
+        <img class="apartments" src="../build/img/apply.jpeg" alt="application">
+        <div class="inner">
+            <div class="intro">
+                <h1>Available Louisville Rental Properties</h1>
+            </div>
+        </div>
     </div>
-    <div class="middle">
-      <h1>COMING SOON</h1>
-      <hr>
-      <p>35 days</p>
+    
+    <div class="guidelines">
+      <div>
+        <h2 class="process">APPLICATION PROCESS</h2>
+        <ul>
+          <li>Complete our application below. Pay a $35.00 non-refundable application fee (part of the online application).</li>
+          <li>Submit all required documents described below. You may scan and email them to burtonregroup@gmail.com.</li>            
+          <li>Image of driver's license or other government-provided ID.</li>   
+          <li>Two most recent pay stubs or most recent tax return.</li>  
+          <li>Each applicant age 18 or older (including spouse, roommates, children, and co-signers) must make a full, complete application.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="approval">REQUIREMENTS FOR APPROVAL</h2>
+        <ul>
+          <li>Gross monthly income (combined for multiple applicants) must be at least three times (3x) the monthly rent.</li>
+          <li>Credit score must be greater than 500 or 550, depending on the property.</li>
+          <li>Income and employment verification. You must submit your two most recent paycheck stubs or your most recent tax return and we must contact your employer to receive verification.</li>
+          <li>Residency history verification for the previous three years.</li>
+          <li>Criminal history verification. We automatically reject applications if credit or criminal history reports show money owed to previous landlords, evictions, or felony convictions for violent or financial crimes in the past 7 years. We can approve past foreclosures or bankruptcies so long as the current credit score meets our requirements for the property</li>
+        </ul>
+        <p><b>Common Reasons to be Declined</b> - Incomplete application, evictions, collections from landlords, credit score below 500, insufficient income, unsatisfactory references, non-discharged bankruptcies, unqualified occupants, pets (no aggressive breeds allowed), vehicles and/or move in dates too far in future can also be a reason for a declined application. Within the last 7 years, any felonies of illegal manufacture or distribution of a controlled substance, felonies resulting in bodily harm or intentional damage or destruction of property for example, "arson". Any sexually related offenses for any time period.</p>
+      </div>
+
+      <div>
+        <h2 class="move-in">MOVE-IN REQUIREMENTS</h2>
+        <p>After approval and before occupancy will be granted , Prospective Tenant must supply all required move in funds, including Security Deposit, first month's rent, and any other additional deposits and fees, all tenant paid utilities must be transferred into Prospective Tenant's name, and a lease must be executed and signed by all parties.</p>
+        <p><b>TENANT/RENTERS LIABILITY INSURANCE is recommended</b> for all Leases and Lease Renewals.</p>
+      </div>
     </div>
-    <div class="bottomleft">
-      <p>Some text</p>
+
+
+    <footer>
+        <div class="row">
+            <div class="column">
+                <address id="contact">
+                <b>BREG Property Management</b><br>
+                P.O. Box 16242<br>
+                Louisville, KY 40256<br>
+                (502)938-8932
+                </address>
+                
+                <p>
+                <b>BUSINESS HOURS</b><br>
+                Monday - Friday 10:00am - 4:00pm<br>
+                Saturday & Sundays Closed<br>
+                Holidays Closed
+                </p>
+            </div>
+
+            <div class="column">
+                <h3>Tenants</h3>
+                <ul>
+                    <li><a href="https://payrent.com/login/eyJyZXR1cm5fdXJsIjoiL2xhbmRsb3JkL3RlbmFudHMifQ____">Pay Rent</a></li>
+                    <li><a href="maintenance-request.html">Maintenance Request</a></li>
+                </ul>
+
+                <img class="equal-housing" src="../build/img/equal-housing.JPG" width="75" height="75">
+            </div>
+
+            <div class="column">
+                <img class="logo-bottom" src="../build/img/logo.png" width="175" height="175">
+            </div>
+        </div>
+    
+            <p class="copyright">&copy;2018 Burton Real Estate Group LLC. All Rights Reserved.</p>
+    </footer>
     </div>
-</div>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
