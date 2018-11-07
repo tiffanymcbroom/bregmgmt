@@ -175,6 +175,7 @@ p {
 
 .button {
     width: 100%;
+    padding-top: 20px;
 }
 
 .banner button {
@@ -189,7 +190,7 @@ p {
 
 .banner div.button {
     width: 100%;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 
 
@@ -673,7 +674,7 @@ footer {
     }
 
     .about-section {
-        height: 2950px;
+        height: 2900px;
     }
 
     .row4 {
