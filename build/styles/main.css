@@ -116,7 +116,9 @@ p {
     left: 0;
 }
 
-
+/* a #main-drop {
+    padding: 0;
+} */
 
 .navbar li a {
     padding: 0px 15px;
@@ -125,6 +127,7 @@ p {
 .navbar li a:hover {
     color:darkgray;
 }
+
 
 /* ======Components====== */
 /* Logo */
@@ -314,6 +317,12 @@ footer {
     text-align: center;
 }
 
+.main-sec {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
 /*==== Accordion section ====*/
 .accordion {
     width: 100%;
@@ -330,13 +339,14 @@ footer {
     color: #444;
     cursor: pointer;
     padding: 10px 15px;
+    padding-right: 0;
     width: 100%;
     text-align: left;
     border: none;
     outline: none;
     transition: 0.4s;
     margin-bottom: 10px;
-    /* height: 23px;
+      /* height: 23px;
     width: 1109px; */
 }
 
@@ -359,6 +369,7 @@ footer {
     color: #444;
     cursor: pointer;
     padding: 10px 15px;
+    padding-right: 0;
     width: 100%;
     text-align: left;
     border: none;
@@ -385,6 +396,7 @@ footer {
     color: #444;
     cursor: pointer;
     padding: 10px 15px;
+    padding-right: 0;
     width: 100%;
     text-align: left;
     border: none;
@@ -412,6 +424,7 @@ footer {
     color: #444;
     cursor: pointer;
     padding: 10px 15px;
+    padding-right: 0;
     width: 100%;
     text-align: left;
     border: none;
@@ -439,6 +452,7 @@ footer {
     color: #444;
     cursor: pointer;
     padding: 10px 15px;
+    padding-right: 0;
     width: 100%;
     text-align: left;
     border: none;
@@ -466,6 +480,7 @@ footer {
     color: #444;
     cursor: pointer;
     padding: 10px 15px;
+    padding-right: 0;
     width: 100%;
     text-align: left;
     border: none;

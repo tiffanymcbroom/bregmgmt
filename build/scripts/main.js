@@ -163,6 +163,7 @@ $(document).ready(function(){
 
         $(".heading").append("Thanks for contacting us! We will be in touch with you shortly.");
     })
-
 });
+
+
 
